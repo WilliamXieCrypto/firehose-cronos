@@ -24,7 +24,7 @@ As mentioned above, the `Extractor` process consumes the data that is extracted 
 is one process out of multiple ones that creates the _Firehose_. These processes are launched by one application. This application is
 chain specific and by convention, we name is "firehose-<chain-name>". Though this application is chain specific, the structure of the application
 is standardized and is quite similar from chain to chain. For convenience, we have create a boiler plate app to help you get started.
-We named our chain `Cronos` this the app is [firehose-cronos](https://github.com/streamingfast/firehose-cronos)
+We named our chain `Cronos` this the app is [firehose-cronos](https://github.com/WilliamXieCrypto/firehose-cronos)
 
 *DeepMind*
 `Deepmind` consist of an instrumented syncing node. We have created a "dummy" chain to simulate a node process syncing that can be found [https://github.com/streamingfast/dummy-blockchain](https://github.com/streamingfast/dummy-blockchain).

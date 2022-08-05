@@ -18,4 +18,4 @@ import (
 	"github.com/streamingfast/logging"
 )
 
-var zlog, _ = logging.PackageLogger("tools", "github.com/streamingfast/firehose-cronos/tools")
+var zlog, _ = logging.PackageLogger("tools", "github.com/WilliamXieCrypto/firehose-cronos/tools")

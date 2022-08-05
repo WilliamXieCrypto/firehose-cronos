@@ -64,6 +64,6 @@ brews:
     commit_author:
       name: goreleaserbot
       email: goreleaser@streamingfast.io
-    homepage: "https://github.com/streamingfast/firehose-cronos"
+    homepage: "https://github.com/WilliamXieCrypto/firehose-cronos"
     description: "Firehose on Cronos stack"
     license: "Apache-2.0"

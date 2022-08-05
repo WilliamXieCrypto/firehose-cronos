@@ -3,8 +3,8 @@ package types
 import (
 	"fmt"
 
+	pbcronos "github.com/WilliamXieCrypto/firehose-cronos/types/pb/sf/cronos/type/v1"
 	"github.com/streamingfast/bstream"
-	pbcronos "github.com/streamingfast/firehose-cronos/types/pb/sf/cronos/type/v1"
 	pbbstream "github.com/streamingfast/pbgo/sf/bstream/v1"
 	"google.golang.org/protobuf/proto"
 )

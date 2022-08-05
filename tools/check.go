@@ -17,10 +17,10 @@ package tools
 import (
 	"fmt"
 
+	pbcronos "github.com/WilliamXieCrypto/firehose-cronos/types/pb/sf/cronos/type/v1"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 	"github.com/streamingfast/bstream"
-	pbcronos "github.com/streamingfast/firehose-cronos/types/pb/sf/cronos/type/v1"
 	sftools "github.com/streamingfast/sf-tools"
 )
 

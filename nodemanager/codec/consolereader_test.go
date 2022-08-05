@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/streamingfast/firehose-cronos/types"
+	"github.com/WilliamXieCrypto/firehose-cronos/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

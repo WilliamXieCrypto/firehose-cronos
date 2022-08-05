@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package sf.cronos.type.v1;
 
-option go_package = "github.com/streamingfast/firehose-cronos/types/pb/sf/cronos/type/v1;pbcronos";
+option go_package = "github.com/WilliamXieCrypto/firehose-cronos/types/pb/sf/cronos/type/v1;pbcronos";
 
 message Block {
   uint64 height = 1;

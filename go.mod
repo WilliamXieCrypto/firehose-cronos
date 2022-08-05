@@ -1,9 +1,10 @@
-module example.com/mod
+module github.com/WilliamXieCrypto/firehose-cronos
 
 go 1.16
 
 require (
 	github.com/ShinyTrinkets/overseer v0.3.0
+	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/spf13/cobra v1.4.0
 	github.com/spf13/viper v1.8.1
 	github.com/streamingfast/bstream v0.0.2-0.20220729104140-7f836fe1f02f
@@ -27,7 +28,7 @@ require (
 	github.com/stretchr/testify v1.7.1
 	go.uber.org/zap v1.21.0
 	google.golang.org/grpc v1.44.0
-	google.golang.org/protobuf v1.27.1
+	google.golang.org/protobuf v1.28.1
 )
 
 replace github.com/ShinyTrinkets/overseer => github.com/streamingfast/overseer v0.2.1-0.20210326144022-ee491780e3ef

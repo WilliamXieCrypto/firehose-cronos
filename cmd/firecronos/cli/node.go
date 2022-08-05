@@ -21,11 +21,11 @@ import (
 	"google.golang.org/grpc"
 )
 
-var nodeLogger, nodeTracer = logging.PackageLogger("node", "github.com/streamingfast/firehose-cronos/node")
-var nodeCronosChainLogger, _ = logging.PackageLogger("node.cronos", "github.com/streamingfast/firehose-cronos/node/cronos", DefaultLevelInfo)
+var nodeLogger, nodeTracer = logging.PackageLogger("node", "github.com/WilliamXieCrypto/firehose-cronos/node")
+var nodeCronosChainLogger, _ = logging.PackageLogger("node.cronos", "github.com/WilliamXieCrypto/firehose-cronos/node/cronos", DefaultLevelInfo)
 
-var extractorLogger, extractorTracer = logging.PackageLogger("extractor", "github.com/streamingfast/firehose-cronos/extractor")
-var extractorCronosChainLogger, _ = logging.PackageLogger("extractor.cronos", "github.com/streamingfast/firehose-cronos/extractor/cronos", DefaultLevelInfo)
+var extractorLogger, extractorTracer = logging.PackageLogger("extractor", "github.com/WilliamXieCrypto/firehose-cronos/extractor")
+var extractorCronosChainLogger, _ = logging.PackageLogger("extractor.cronos", "github.com/WilliamXieCrypto/firehose-cronos/extractor/cronos", DefaultLevelInfo)
 
 func registerCommonNodeFlags(cmd *cobra.Command, flagPrefix string, managerAPIAddr string) {
 	cmd.Flags().String(flagPrefix+"path", ChainExecutableName, FlagDescription(`
