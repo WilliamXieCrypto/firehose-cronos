@@ -1,4 +1,4 @@
-module github.com/streamingfast/firehose-acme
+module example.com/mod
 
 go 1.16
 

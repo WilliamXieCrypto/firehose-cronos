@@ -28,7 +28,7 @@ type Superviser struct {
 }
 
 func (s *Superviser) GetName() string {
-	return "acme"
+	return "cronos"
 }
 
 func NewSuperviser(
@@ -61,7 +61,7 @@ func NewSuperviser(
 		supervisor.RegisterLogPlugin(logplugin.NewToConsoleLogPlugin(debugDeepMind))
 	}
 
-	appLogger.Info("created acme superviser", zap.Object("superviser", supervisor))
+	appLogger.Info("created cronos superviser", zap.Object("superviser", supervisor))
 	return supervisor
 }
 

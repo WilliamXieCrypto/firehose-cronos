@@ -15,9 +15,9 @@
 package cli
 
 import (
+	"github.com/WilliamXieCrypto/firehose-cronos/nodemanager/codec"
 	"github.com/spf13/cobra"
 	"github.com/streamingfast/bstream/blockstream"
-	"github.com/streamingfast/firehose-acme/nodemanager/codec"
 	"github.com/streamingfast/logging"
 	nodeManager "github.com/streamingfast/node-manager"
 	"github.com/streamingfast/node-manager/mindreader"
